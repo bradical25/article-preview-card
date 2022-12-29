@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+:root {
+  --color-text-primary: #48556a;
+  --color-text-secondary: #6e8098;
+  --color-text-tertiery: #9daec2;
+
+  --color-background: #ecf2f8;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Manrope, sans-serif;
+  background-color: #ecf2f8;
+}
+
+article {
+  margin: 0 1.125rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1rem 2rem -0.5rem var(--color-background);
+}
+
+h1,
+h2 {
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 13px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.article-image {
+  width: 100vw;
+  object-fit: contain;
+  height: 50%;
+}
+
+.content-container {
+  margin: 1.5rem 2rem;
+}
+
+.main {
+  margin-bottom: 2rem;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-image {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.date {
+  color: var(--color-text-tertiery);
+}
+
+button {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: var(--color-background);
+  border: none;
+}
